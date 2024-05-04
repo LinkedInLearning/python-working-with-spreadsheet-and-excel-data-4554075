@@ -9,8 +9,8 @@ This is the repository for the LinkedIn Learning course Python: Working with Spr
 	- Microsoft Excel (to view the results)
 	- Python (at least 3.8) 
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. Install the openpyxl and xlsxwriter libraries using pip
-	- pip install openpyxl, xlsxwriter
+3. Install the pandas, openpyxl, and xlsxwriter libraries using pip
+	- pip install pandas, openpyxl, xlsxwriter
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
