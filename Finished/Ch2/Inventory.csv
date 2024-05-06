@@ -1,0 +1,51 @@
+Item Name,Category,Quantity,Wholesale Price,Consumer Price
+Apple,Fruits,100,0.50,0.75
+Banana,Fruits,150,0.35,0.50
+Orange,Fruits,120,0.45,0.65
+Grapes,Fruits,80,0.60,0.85
+Strawberries,Fruits,90,1.20,1.50
+Carrot,Vegetables,200,0.30,0.45
+Broccoli,Vegetables,180,0.50,0.75
+Tomato,Vegetables,150,0.40,0.60
+Potato,Vegetables,220,0.25,0.35
+Onion,Vegetables,180,0.30,0.45
+Chicken,Meats,100,2.50,3.50
+Beef,Meats,80,3.00,4.50
+Pork,Meats,120,2.75,4.00
+Salmon,Meats,90,4.50,6.00
+Turkey,Meats,70,3.25,4.75
+White Bread,Breads,150,1.25,1.75
+Whole Wheat Bread,Breads,130,1.50,2.00
+Baguette,Breads,100,1.75,2.25
+Croissant,Breads,120,1.00,1.50
+Brioche,Breads,90,1.75,2.25
+Milk,Dairy,200,1.00,1.50
+Cheese,Dairy,180,2.00,3.00
+Yogurt,Dairy,220,0.75,1.25
+Butter,Dairy,150,1.50,2.25
+Eggs,Dairy,250,1.25,1.75
+Pear,Fruits,110,0.55,0.80
+Pineapple,Fruits,130,0.75,1.00
+Watermelon,Fruits,90,2.00,2.50
+Kiwi,Fruits,120,0.70,0.95
+Avocado,Fruits,100,1.25,1.75
+Lettuce,Vegetables,160,0.40,0.60
+Cucumber,Vegetables,190,0.35,0.50
+Bell Pepper,Vegetables,140,0.60,0.85
+Spinach,Vegetables,170,0.55,0.80
+Zucchini,Vegetables,150,0.45,0.65
+Lamb,Meats,80,4.00,5.50
+Veal,Meats,100,3.50,5.00
+Duck,Meats,90,3.75,5.25
+Shrimp,Meats,120,5.00,7.00
+Sausages,Meats,110,2.00,3.00
+Sourdough Bread,Breads,140,1.50,2.00
+Rye Bread,Breads,120,1.40,1.90
+Multigrain Bread,Breads,110,1.60,2.10
+Bagel,Breads,130,1.20,1.70
+Ciabatta,Breads,100,1.80,2.30
+Cream,Dairy,180,1.75,2.50
+Cottage Cheese,Dairy,160,1.25,1.75
+Sour Cream,Dairy,190,1.00,1.50
+Heavy Cream,Dairy,170,2.00,2.75
+Whipped Cream,Dairy,150,2.25,3.00

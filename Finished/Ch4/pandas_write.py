@@ -1,0 +1,24 @@
+# LinkedIn Learning Course
+# Example file for Python: Working with Excel and Spreadsheet Data by Joe Marini
+# Using Pandas library to write CSV and Excel data
+
+import pandas as pd
+
+# create a CSV file with Pandas
+data = [
+    {"Item Name":"Apple", "Category":"Fruits", "Quantity":100, "Wholesale Price":0.50, "Consumer Price":0.75},
+    {"Item Name":"Banana", "Category":"Fruits", "Quantity":150, "Wholesale Price":0.35, "Consumer Price":0.50},
+    {"Item Name":"Orange", "Category":"Fruits", "Quantity":120, "Wholesale Price":0.45, "Consumer Price":0.65},
+    {"Item Name":"Grapes", "Category":"Fruits", "Quantity":80, "Wholesale Price":0.60, "Consumer Price":0.85},
+    {"Item Name":"Strawberries", "Category":"Fruits", "Quantity":90, "Wholesale Price":1.20, "Consumer Price":1.50}
+]
+df = pd.DataFrame(data)
+df.to_csv("output.csv", index=False)
+
+# Convert a CSV file to an Excel file
+df = pd.read_csv("Inventory.csv")
+df.to_excel("Inventory.xlsx", sheet_name="Inventory", index=False)
+
+# append data to an existing workbook without overwriting
+with pd.ExcelWriter("Inventory.xlsx", engine="openpyxl", mode='a') as xlw:
+    df.to_excel(xlw, sheet_name="Inventory Index", index_label="Index")
