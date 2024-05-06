@@ -34,20 +34,7 @@ for row, itemlist in enumerate(data[1:], start=1):
     worksheet.write(row, 4, itemlist[4], fmt_money)
 
 # define a table for the worksheet
-table_options = {
-    "name": "InventoryData",
-    "autofilter": True,
-    "banded_rows": False,
-    "first_column": True,
-    "columns": [
-        {"header": data[0][0]},
-        {"header": data[0][1]},
-        {"header": data[0][2]},
-        {"header": data[0][3]},
-        {"header": data[0][4]},
-    ]
-}
-worksheet.add_table("A1:E6", table_options)
+
 
 worksheet.set_zoom(200)
 worksheet.autofit()
