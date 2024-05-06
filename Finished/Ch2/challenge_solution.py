@@ -41,7 +41,7 @@ filename = "FinancialSample.xlsx"
 wb = openpyxl.load_workbook(filename)
 
 source_sheet_name = "SalesData"
-added_sheets = split_workbook(wb, source_sheet_name, "A")
+added_sheets = split_workbook(wb, source_sheet_name, "B")
 
 # Add the auto-filters to each worksheet
 for sheet_name in added_sheets:
