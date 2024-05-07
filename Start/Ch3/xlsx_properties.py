@@ -4,7 +4,7 @@
 
 import xlsxwriter
 
-workbook = xlsxwriter.Workbook("doc_properties.xlsx")
+workbook = xlsxwriter.Workbook("Properties.xlsx")
 worksheet = workbook.add_worksheet()
 
 # set the standard properties
