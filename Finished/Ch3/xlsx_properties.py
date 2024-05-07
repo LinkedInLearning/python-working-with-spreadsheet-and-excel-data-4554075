@@ -4,7 +4,7 @@
 
 import xlsxwriter
 
-workbook = xlsxwriter.Workbook("DocProperties.xlsx")
+workbook = xlsxwriter.Workbook("Properties.xlsx")
 worksheet = workbook.add_worksheet()
 
 props = {
