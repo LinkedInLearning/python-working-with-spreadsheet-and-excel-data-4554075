@@ -19,7 +19,7 @@ data = [
 workbook = xlsxwriter.Workbook('Inventory.xlsx')
 worksheet = workbook.add_worksheet("Inventory")
 
-# Use the add_format function to define formats that you can use later 
+# Use the add_format function to define formats that you can use later
 # in the worksheet. NOTE: If you change the format then ALL prior instances
 # of the format will be saved as the most recent one
 
@@ -27,7 +27,6 @@ worksheet = workbook.add_worksheet("Inventory")
 # write the data into the workbook
 worksheet.write_row(0, 0, data[0])
 for row, itemlist in enumerate(data[1:], start=1):
-    # worksheet.write_row(row, 0, itemlist)
     worksheet.write(row, 0, itemlist[0])
     worksheet.write(row, 1, itemlist[1])
     worksheet.write(row, 2, itemlist[2])
