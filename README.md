@@ -2,7 +2,7 @@
 
 This is the repository for the LinkedIn Learning course Python: Working with Spreadsheet and Excel Data. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![[lil-thumbnail-url]
+![lil-thumbnail-url]
 
 In this hands-on course, technology industry veteran Joe Marini guides you through a variety of practical ways that you can leverage Python to work more effectively with data from spreadsheets and Excel. Find out how to read and write CSV data, as well as how to convert data to and from CSV. Learn how Python can help you in creating, reading, and writing Excel workbooks. Plus, explore ways you can use Python when you’re working with Excel sheet data and formulas.
 
